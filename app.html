@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<scs>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+         alert("Head Section Alert");
+       
+    </script>
+</head>
+<body>
+    <!-- <script>
+        
+        //Chapter 1:
+        //1
+        // alert("welcome to our page");
+        // //2
+        // alert("Please enter a valid email address");
+        // //3
+        // alert("Welcome to JS Land... \n Happy Coding!");
+        // //4
+        // alert("Welcome to JS Land");
+        // alert("Happy Coding!");
+        // //5 (In console browser write:)
+        // //console.log(alert("Hello I can use JS through my web browser"));
+        //6
+        alert("Before Html Body Content section Alert");
+        //chapter 1 finished 
+        //CHAPTER:2
+        // var userName;
+        // var myName="Rabat Shahid";
+        // var message="Hello World";
+        // var age=23;
+        // alert(message);
+        // alert(myName);
+        // alert(age);
+        // alert("Certified Mobile development");
+        // //5
+        var word="Pizza";
+        alert(word+"\n"+word.slice(0,word.length-1)+"\n"+word.slice(0,word.length-2)+"\n"+word.slice(0,word.length-3)+"\n"+word.slice(0,word.length-4));
+   //6
+   var email="rabatshaid@gmail.com";
+   alert("Welcome to email "+email);
+   //7
+   var book="A smart way to learn";
+   alert("I am trying to learn from book "+book);
+   //8
+   function myFunction() {
+  document.getElementById("pa1").innerHTML = "Yah i can Change HTMl through JavaScript!";
+}
+//9
+var design="“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”"; 
+alert(design);
+chapter 2 completed
+//CHAPTER:3
+//1
+var age=20;
+alert("I am "+age+" years old");
+//2
+var vtime=10;
+alert("You have visited "+vtime+" times our site");
+//3
+var birthyear="1999";
+function myage(){
+document.getElementById("by").innerHTML="My birth Yerar is "+birthyear+"\n Hello!";
+}
+CHAPTER 4:
+1:
+var name = "Rabat", userName = "user58", age = 23;
+2:
+ILLEGAL: 3RAB, VA R, %VAR ,*VAR,(VAR
+LLEGA;: VAR, RABAT,MANGO,APPLE,TREE;
+CHAPTER 5:
+1:
+var a=9;
+var b=3;
+var c= a+b;
+console.log("The Sum of"+ a+"and"+ b+" is"+ c );
+2:
+var c2=a*b, c3=a/b, c4=a%b,c1=a-b;
+console.log("The sub of"+ a+"and"+ b+" is"+ c1 );
+console.log("The mul of"+ a+"and"+ b+" is"+ c2 );
+console.log("The div of"+ a+"and"+ b+" is"+ c3 );
+console.log("The mod of"+ a+"and"+ b+" is"+ c4 );
+3:
+var rab="";
+console.log(rab);
+rab=5;
+console.log("The initial value is "+ rab);
+rab++;
+console.log("The variable after increment is "+ rab);
+rab=rab+7;
+console.log("The value after addition is "+ rab);
+rab--;
+console.log("The variable after decrement is "+ rab);
+rab=rab%3;
+console.log("The remainder is "+ rab);
+4:
+var cost=600;
+var quant=5;
+console.log("Total cost to buy"+ quant+" tickets is "+(quant*cost));
+5:
+var table=4;
+  var final;
+for(var i=1;i<=10;i++){
+ final += "\n"+table+" *"+ i+" ="+ table*i;
+}
+console.log(final);
+6:
+var celsius=27;
+var fahrenhite=32;
+var celconntofah=(celsius*(9/5))+32;
+var fehconntocel=(fahrenhite-32)*(5/9);
+console.log(celcius+" is eqaul to fahrenhite "+ celconntofah);
+console.log(fahrenhite+" is eqaul to celsius "+ fehconntocel);
+7:
+
+var iten1=prompt("Enter The price 1");
+var item2=prompt("Enter The price 2");
+var qu1=prompt("Enter quantity 1");
+var qu2=prompt("Enter quantity 2");
+var ship=(item2*qu2)+(iten1*qu1);
+console.log("Price of item 1 is "+iten1);
+console.log("Price of item 2 is "+item2);
+console.log("Quantity of item 1 is "+qu1);
+console.log("Quantity of item 2 is "+qu2);
+console.log("Total charger is  "+ship);
+8:
+var marks=100;
+var stumarks=prompt("Enter The marks you obtaines out of 100");
+var per=(stumarks/marks*100);
+console.log("The percentage is "+ per+" %");
+document.getElementById("marksheet").innerHTML="Total marks is "+marks+"\nMarks obtained is "+stumarks+"\nThe percentage is "+ per+" %";
+9:
+var usa=10;
+  var riyal=25;
+  var pak=(usa*104.80)+(riyal*28);
+alert("Total currency in Pakistan is "+pak);
+10:
+  var num=5;
+  console.log(num+5*10/2);
+  11:
+  
+  var cury=prompt("Enter current year");
+  var birthy=prompt("Enter birth year");
+  var agee=(cury-birthy);
+  alert("Your age is "+agee);
+  12:
+  var radius=10;
+  var pi=3.142;
+  var area=pi* Math.pow(radius,2);
+  var circumference=2*pi*radius;
+  console.log("The circumference is "+circumference+"\nThe Area is : "+area);
+  13:
+  var fav="chillz";
+  var cuage=15;
+  var esage=65;
+  var amsn=3;
+  var need=(esage-cuage)*3;
+  console.log("Your favourite item is "+fav);
+  console.log("Your current age is "+cuage);
+  console.log("Your estimated age is "+esage);
+  console.log("Amount of snaks per day "+amsn);
+  console.log("You will need "+need+" chocolates until your ripe age old "+esage);
+CHAPTER 6-10:
+1:
+var inc=10;
+  console.log("The value of variable is "+inc);
+  console.log("The value of ++a is "+(++inc));
+  console.log("The value is  "+inc);
+  console.log("The value of a++ is "+(inc++));
+  console.log("The value is  "+inc);
+  console.log("The value of --a is "+(--inc));
+  console.log("The value is  "+inc);
+  console.log("The value of a-- is "+(inc--));
+  console.log("The value is  "+inc);
+  2:
+   var a1=2;
+  var b1=1;
+  var result1=--a1 - --b1 + ++b1 + b1--;
+  console.log(result1);
+  console.log(--a1);
+  console.log(--a1 - --b1);
+  console.log(--a1 - --b1 + ++b1);
+  console.log(--a1 - --b1 + ++b1 + b1--); 
+  3:
+  var goodnamme=prompt("Enter name");
+  alert("Hello "+goodnamme);
+  4:
+  var ab=prompt("Enter The number you want to show table");
+  if(ab==null);{
+    ab=5;
+  }
+  var final1;
+for(var i=1;i<=10;i++){
+ final1 += "\n"+ab+" *"+ i+" ="+ ab*i;
+}
+console.log(final1);
+5:
+  var sub1=prompt("Enter subject1 name");
+  var sub2=prompt("Enter subject2 name");
+  var sub3=prompt("Enter subject3 name");
+  var mar1=prompt("Enter marks obtained in subject 1");
+  var mar2=prompt("Enter marks obtained in subject 2");
+  var mar3=prompt("Enter marks obtained in subject 3");
+  var tot=100;
+document.getElementById("sb1").innerHTML=sub1;
+document.getElementById("sb2").innerHTML=sub2;
+document.getElementById("sb3").innerHTML=sub3;
+document.getElementById("m1").innerHTML=mar1;
+document.getElementById("m2").innerHTML=mar2;
+document.getElementById("m3").innerHTML=mar3;
+var per1=mar1/tot*100;
+var per2=mar2/tot*100;
+var per3=mar3/tot*100;
+document.getElementById("pr1").innerHTML=per1;
+document.getElementById("pr2").innerHTML=per2;
+document.getElementById("pr3").innerHTML=per3;
+document.getElementById("t1").innerHTML=tot;
+document.getElementById("t2").innerHTML=tot;
+document.getElementById("t3").innerHTML=tot;
+CHAPTER 9-11:
+1:
+var city=prompt("Enter city name");
+city=city.toLowerCase();
+if(city=="karachi"){
+  alert("Welcome to city of lights");
+}
+else{
+  alert("Other city then karachi");
+}
+2:
+
+var gen=prompt("Enter your gender");
+gen=gen.toLowerCase();
+if(gen=="male"){
+  alert("Welcome Sir");
+}
+else if(gen=="female"){
+  alert("Welcome ma'am");
+}
+3:
+var color=prompt("Enter traffic light color");
+color=color.toLowerCase();
+if(color=="red"){
+  alert("Must Stop");
+}
+else if(color=="green"){
+  alert("Move now");
+}
+else if(color=="yellow"){
+  alert("Ready to move");
+}
+else{
+  alert("Invalid color");
+}
+4:
+var petrol=prompt("Enter the amount of petrol in liter");
+
+if(petrol<=0.25){
+  alert("Please refill the fuel in the car");
+}
+else{
+  alert("Enough petrol");
+}
+5:
+var a = 4; 
+  //a
+  if (++a === 5){ alert("given condition for variable a is true"); } 
+  //b
+  var b = 82; if (b++ === 83){ alert("given condition for variable b is true"); } 
+  //c
+  var c = 12; if (c++ === 13){ alert("condition 1 is true"); } if (c === 13){ alert("condition 2 is true"); } if (++c < 14){ alert("condition 3 is true"); } if(c === 14){ alert("condition 4 is true"); } 
+  //d
+  var materialCost = 20000; var laborCost = 2000; var totalCost = materialCost + laborCost; if (totalCost === laborCost + materialCost){ alert("The cost equals"); } 
+  //e
+  if (true){ alert("True"); } if (false){ alert("False"); } 
+  //f
+  if("car" < "cat"){ alert("car is smaller than cat"); } 
+ 
+6:
+var mar1a=prompt("Enter marks obtained in subject 1");
+  var mar2a=prompt("Enter marks obtained in subject 2");
+  var mar3a=prompt("Enter marks obtained in subject 3");
+  var tota=300;
+  var mrkob=+(mar1a)+(+mar2a)+(+mar3a);
+var pera=mrkob/tota*100;
+if(pera>=80){
+  
+  console.log("Total Marks :   "+ tota +"\nMarks Obtained :  "+mrkob+"\nPercentage :   "+pera);
+  
+  console.log("Grade :   A one \nRemarks : Excellent");
+  }
+else if(pera>=70){
+  console.log("Total Marks :   "+ tota +"\nMarks Obtained :  "+mrkob+"\nPercentage :   "+pera);
+  
+  console.log("Grade :   A   \nRemarks :  Good");
+  
+ }
+else if(pera>=60){
+  
+  console.log("Total Marks :   "+ tota +"\nMarks Obtained :  "+mrkob+"\nPercentage :   "+pera);
+  
+  console.log("Grade :   B \nRemarks : You need to improve");
+  }
+  else{
+    console.log("Total Marks :   "+ tota +"\nMarks Obtained :  "+mrkob+"\nPercentage :   "+pera);
+  
+  console.log("Grade :   Fail \nRemarks : Fail");
+  
+  }
+7:
+var secret=7;
+var guess=+prompt("Enter guess");
+if(secret==guess){
+  alert("Bingo");
+}
+else if(secret=guess+1 || secret==guess-1){
+  alert("Close enough");
+}
+8:
+var secret=7;
+var guess=+prompt("Enter guess");
+if(secret==guess){
+  alert("Bingo");
+}
+else if(secret==guess+1 || secret==guess-1){
+  alert("Close enough");
+}
+else{
+  alert("wrong");
+}
+9:
+var thrdiv=prompt("enter number");
+  if(thrdiv%3==0){
+    alert("Divisile by 3");
+  }
+  if(thrdiv%3!=0){
+    alert("Not divisile by 3");
+  }
+  10:
+  var twodiv=prompt("enter number");
+  if(twodiv%2==0){
+    alert("Even");
+  }
+  if(twodiv%2!=0){
+    alert("Odd");
+  }
+  11:
+  var temp1=prompt(Enter temperature in degree celcius);
+  if(temp1>40){
+    alert("Weather is Too hot");
+  }
+  else if(temp1>30){
+    alert("Weather is normal");
+  }
+   else if(temp1>20){
+    alert("Weather is cold");
+  } 
+  else if(temp1>10){
+    alert("OMG! Weather is Too cold");
+  }
+  12:
+  var fi=+prompt("Enter 1st No.");
+  var sc=+prompt("Enter 2nd No.");
+  var op=prompt("Enter operation");
+  if (op=="+"){
+    alert("the sum is :"+ ((+fi)+(+sc)));
+  }
+  if (op=="*"){
+    alert("the multiplication ans is :"+ fi*sc);
+  }
+  if (op=="-"){
+    alert("the subtraction ans is :"+ (fi-sc));
+  }
+  if (op=="/"){
+    alert("the division ans is :"+ (fi/sc));
+  }
+  if (op=="%"){
+    alert("the remainder is :"+ (fi%sc));
+  }
+CHAPTER 12-13:
+1:
+  var cho= prompt("Enter any thing 1 character ");
+  cho=cho.charCodeAt();
+if(cho>=65&&cho<=90){
+  alert("Capital letter You enterd");
+
+}
+else if(cho>=97&&cho<=122){
+  alert("Small letter You enterd");
+  
+}
+else {
+  alert("You entered any special character or digit");
+}
+2:
+var fb= +prompt("Enter the first number");
+
+var sb= +prompt("Enter the second number");
+if(fb>sb){
+  alert("The greator number  is "+fb);
+}
+else if(fb<sb){
+  alert("The greator number  is "+sb);
+}
+else{
+  alert("equal")
+}
+3:
+ var fb1= +prompt("Enter the number");
+
+if(fb1>0){
+  alert("The number is positive");
+}
+else if(fb1<0){
+  alert("The number is negative ");
+}
+else{
+  alert("The number is zero")
+}
+4:
+var fb2= prompt("Enter the character");
+  fb2=fb2.toLowerCase();
+  if(fb2=='a'||fb2=='e'||fb2=='i'||fb2=='o'||fb2=='u'){
+    alert("Vowel character");
+  }
+  else{
+    alert("Not a vowel");
+  }
+5:
+var pass= prompt("Enter the password");
+var pass1= prompt("Reenter your password");
+if(pass==""||pass1=="")
+{
+  alert("You didn't enter the password");
+}
+else if(pass1==pass){
+  alert("Your password match You record has successfully added");
+
+}
+else if(pass != pass1){
+  alert("Your password not match");
+  
+}
+6:
+var greeting; 
+var hour = 13; 
+if (hour < 18) {
+   greeting = "Good day";
+   alert(greeting);
+}
+ else {
+   greeting = "Good evening";
+alert(greeting);
+ } 
+ 7:
+   var hrs= +prompt("Enter time in 24 hours");
+  if(hrs>=0&&hrs<12)
+  {
+    alert("Good morning");
+  }
+  else if(hrs>=12&&hrs<17)
+  {
+    alert("Good Afternoon");
+  }
+  else if(hrs>=17&&hrs<21)
+  {
+    alert("Good Evening");
+  }
+  else if (hrs>=21&&hrs<25)
+  {
+    alert("Good night");
+  }
+CHAPTER 14-16:
+1
+var name=[];
+2:
+var fruits = new Array();
+3:
+var strarr=["Rabat","Shahid","Madiha"];
+4:
+var numarr=[2,4,6,9];
+5:
+var booarr=[true,false];
+6:
+var mxarr=["Rabat",4,false];
+  alert(mxarr);
+  7:
+  var eduarr=['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M. Phil.', 'PhD'];
+  var adar="";
+  for(var i=0;i<eduarr.length;i++)
+  {
+    adar += i+1+") "+eduarr[i]+"\n";
+  }
+  alert(adar);
+8:
+var naar=["rabat","Ali","Aiza"];
+var smar=[400,450,390];
+var art=500;
+var obar="";
+for(i=0;i<smar.length;i++)
+{
+  var pera=smar[i]/art*100;
+obar +=alert("The marks obtanied by "+naar[i]+" is"+smar[i]+" Percentage is "+pera);
+}
+9:
+var colarr=["red","blue","green","yello","black"];
+console.log(colarr);
+var coch=prompt("Which color you want to add in beginning");
+colarr.unshift(coch);
+console.log(colarr);
+var coch=prompt("Which color you want to add in end");
+colarr.push(coch);
+console.log(colarr);
+colarr.unshift("lightgreen","lightyello");
+console.log(colarr);
+colarr.shift();
+console.log(colarr);
+colarr.pop();
+console.log(colarr);
+var cochin= +prompt("Which index you want to add color");
+var coch=prompt("Which color you want to add ");
+colarr.splice(cochin+1, 0, coch);
+console.log(colarr);
+var cochin= +prompt("Which index you want to delete color");
+var coch= +prompt("How many colors you want to delete ");
+colarr.splice(cochin-1, coch);
+console.log(colarr);
+10:
+var sco=[73,560,235,356,23];
+console.log("Students scores" +sco);
+sco.sort();
+var ii=sco.sort(function(a, b){return a-b});
+console.log("Sorted array "+ii);
+
+11:
+var cities=["Karachi","Lahore","Peshawar","Multan","Muree"];
+var selectedcity=[];
+var it=+prompt("how much do you want to copy");
+for (var i=0;i<it;i++) {
+	selectedcity.push(cities[i]);
+}
+
+console.log(selectedcity);
+12:
+
+  var arr11 = ["This", "is", "my ", "cat"]; 
+  console.log(arr11);
+  
+  console.log(arr11.join(" "));
+  13:
+  var fifo=[];
+   var aa="";
+   fifo.push("Mouse");
+  fifo.push("kEYBOARD");
+   fifo.push("Monitor");
+   console.log(fifo);
+   for(i=0;i<=fifo.length+1;i++){
+     aa +=i+1+" out is "+fifo.shift()+"\n";
+   }
+   console.log(aa);
+   14:
+   var fifoa=[];
+  var aaa="";
+  fifoa.push("Mouse");
+  fifoa.push("kEYBOARD");
+  fifoa.push("Monitor");
+  console.log(fifoa);
+  for(i=0;i<=fifoa.length+1;i++){
+    aaa +=i+1+" out is "+fifoa.pop()+"\n";
+  }
+  console.log(aaa);
+15:
+
+  var fru=['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony' , 'Haier'];
+  document.write(fru); 
+ CHAPTER 17-20
+ 1:
+ var ma=[];
+ 
+ 2:
+  var ma1="";
+  var maa=[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+  for (var x=0;x<3;x++){
+    for (var y=0;y<4;y++){
+       ma1 += " "+maa[x][y];
+    }
+    
+    console.log(ma1 +"\n");
+    ma1="";
+  }
+  3:
+  for (var c=1;c<=10;c++){
+    console.log("\n"+c);
+  }
+  4:
+  var table1=prompt("Which no. table you want to learn");
+  var final1;
+  var cco=prompt("Tell the length");
+for(var i=1;i<=cco;i++){
+ final1 += "\n"+table1+" *"+ i+" ="+ table1*i;
+}
+console.log(final1);
+5:
+var fruit=["apple","mango","cherry","orange","peach"];
+  for (var i=0;i<fruit.length;i++)
+  {
+    console.log("Elemet at index"+[i]+" is"fruit[i]+"\n");
+  }
+  6:
+for (var c=1;c<=10;c++){
+    console.log(c);
+  }
+  for (var c=10;c>=1;c--){
+    console.log(c);
+  }
+  for (var i=0;i<=20;i++){
+    if(i%2==0){
+      console.log(i);
+    }
+  }
+  for (var i=0;i<=20;i++){
+    if(i%2!=0){
+      console.log(i);
+    }
+  }
+  for (var i=0;i<=20;i++){
+    if(i%2==0){
+      console.log(i+"k");
+    }
+  }
+  7:
+var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+   var uss=prompt("Enter your choice");
+   uss=uss.toLowerCase();
+   var bee="";
+   for(var ii=0;ii<A.length ;ii++)
+   {
+     if(uss==A[ii]){
+console.log(uss+" is available");
+break;
+     }
+     else{
+        bee="no";
+     }
+   }
+   if(bee=="no")
+   {
+     console.log("Product is not available");
+   }
+  8:
+var maxx=[23,56,98,23,56,32,54,36];
+var temp=0;
+for(var i=0;i<maxx.length;i++){
+  if(maxx[i]>temp)
+  {
+    temp=maxx[i];
+
+  }
+  
+}
+console.log(temp);
+  9:
+  var maxx=[23,56,98,13,56,32,54,36];
+var temp=0;
+for(var i=0;i<maxx.length;i++){
+  if(maxx[i]>temp)
+  {
+    temp=maxx[i];
+   
+  }
+}
+for(var i=0;i<maxx.length;i++){
+  if(maxx[i]<temp)
+  {
+    temp=maxx[i];
+   
+  }
+}
+console.log(temp);
+
+10:
+
+  for (var i=0;i<=100;i++){
+    if(i%5==0){
+      console.log(i);
+    }
+  }
+
+  
+</script>-->
+
+    <div style="text-align: center;"></div>
+    <h1>JavaScript Assignment</h1>
+    <h3>Roll No : WM 9410</h3>
+    <p id="pa1" onclick="myFunction()">Click me to change my HTML content (innerHTML).</p>
+    <p id="by"  onclick="myage()">Click me to know my birth year.</p>
+<p id="sh"></p>
+<h1>Marksheet</h1>
+<p id="marksheet"></p>
+
+<!--CHAPTER 4 QUE 3-->
+<h2> “Rules for naming JS variables”</h2>
+ <p>  b)  Variable names can only contain ',' , $, and numbers, _ . For example $my_1stVariable
+   <br> c) Variables must begin with a letter, _ or $ For example $name, _name or name 
+   <br> d) Variable names are case sensitivve
+   <br> e) Variable names should not be JS keywords   </p>
+</div>
+<table>
+  <tr>
+    <td>Subject</td>
+    <td>Total Marks</td>
+    <td>Obtained Marks</td>
+    <td>Percentage</td>
+  </tr>
+  <tr>
+    <td id="sb1"></td>
+    <td id="t1"></td>
+    <td id="m1"></td>
+    <td id="pr1"></td>
+   
+  </tr>
+
+  <tr>
+    <td id="sb2"></td>
+    <td id="t2"></td>
+    <td id="m2"></td>
+    <td id="pr2"></td>
+   
+  </tr>
+
+  <tr>
+    <td id="sb3"></td>
+    <td id="t3"></td>
+    <td id="m3"></td>
+    <td id="pr3"></td>
+   
+  </tr>
+</table>
+<script>
+    
+    alert("After html body content section Alert");
+    //4
+//chapter 3 4:
+  //var name=prompt("Enter your Name");
+    //var product=prompt("Enter Product Name ");
+    //var qua=prompt("Enter Quantity ");
+    
+   // document.getElementById("sh").innerHTML="Youe Name is "+name+"\nYou Bought "+product+"\nQuantity is "+qua;
+  //chapter 3 completed
+
+</script>
+</body>
+</html>
